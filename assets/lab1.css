@@ -40,6 +40,11 @@
     border: 2px solid grey;
 }
 
+.carousel-indicators {
+display: grid !important;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 
 .carousel-item img {
     width: 80%
